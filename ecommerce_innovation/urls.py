@@ -19,7 +19,10 @@ from django.urls import path, include
 from ecommerce_innovation.settings import ENV_TYPE
 
 api_url_patterns = (
-    []
+    [
+        path('accounts/v1/', include('accounts.api.v1.urls')),
+        # path('shop/v1/', include('shop.api.v1.urls')),
+    ]
 )
 
 urlpatterns = [

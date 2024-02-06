@@ -47,7 +47,7 @@ class Product(BaseModel):
 class Cart(BaseModel):
     user = models.OneToOneField(User, verbose_name=_('Cart'), on_delete=models.CASCADE)
     item_total = models.FloatField(verbose_name=_('Subtotal'), default=0)
-    total_quantity = models.PositiveIntegerField(verbose_name=_('Total quantity'), default=1)
+    total_quantity = models.PositiveIntegerField(verbose_name=_('Total quantity'), default=0)
 
     class Meta:
         verbose_name = _('Cart')

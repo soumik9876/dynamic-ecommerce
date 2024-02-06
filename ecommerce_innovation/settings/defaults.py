@@ -20,15 +20,13 @@ LOGS_DIR = BASE_DIR / 'logs'
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
 
 env = environ.Env()
-environ.Env.read_env((BASE_DIR / '.env').as_posix()) # reading .env file
+environ.Env.read_env((BASE_DIR / '.env').as_posix())  # reading .env file
 
 ENV_TYPE = env.str('ENV_TYPE')
 SECRET_KEY = env.str('SECRET_KEY')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
-
-ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -43,11 +41,12 @@ INSTALLED_APPS = [
     # installed app
     'rest_framework',
     'rest_framework.authtoken',
-    # 'allauth',
-    # 'allauth.account',
-    # 'allauth.socialaccount',
-    # 'allauth.socialaccount.providers.google',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
     'dj_rest_auth',
+    'dj_rest_auth.registration',
     'corsheaders',
     'debug_toolbar',
 
@@ -66,6 +65,7 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
@@ -169,7 +169,7 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'dj_rest_auth.jwt_auth.JWTCookieAuthentication',
         'rest_framework.authentication.BasicAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
+        # 'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.TokenAuthentication',
     ],
     'DEFAULT_RENDERER_CLASSES': [
@@ -188,13 +188,13 @@ REST_AUTH = {
     'JWT_AUTH_COOKIE': 'bearer',
     'JWT_AUTH_REFRESH_COOKIE': 'refresh',
 }
-# AUTHENTICATION_BACKENDS = [
-#     # Needed to log-in by username in Django admin, regardless of `allauth`
-#     'django.contrib.auth.backends.ModelBackend',
-#
-#     # `allauth` specific authentication methods, such as login by e-mail
-#     'allauth.account.auth_backends.AuthenticationBackend',
-# ]
+AUTHENTICATION_BACKENDS = [
+    # Needed to log-in by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by e-mail
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
 
 # CORS CONFIGURATIONS
 CORS_ALLOW_ALL_ORIGINS = True
@@ -216,4 +216,3 @@ STATICFILES_DIRS = [
 
 INTERNAL_IPS = ['127.0.0.1']
 ALLOWED_HOSTS = ['*']
-
