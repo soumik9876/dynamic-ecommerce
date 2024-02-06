@@ -2,6 +2,8 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
+from core.models import BaseAddress
+
 
 # Create your models here.
 
@@ -21,3 +23,16 @@ class User(AbstractUser):
 
     def __str__(self):
         return self.username
+
+
+class UserAddress(BaseAddress):
+    is_default = models.BooleanField(verbose_name=_('Is default'), default=False)
+    user = models.ForeignKey(User, verbose_name=_('User'), on_delete=models.CASCADE)
+    phone = models.CharField(max_length=20, verbose_name=_('Phone'), blank=True)
+
+    class Meta:
+        verbose_name = _('User Address')
+        verbose_name_plural = _('User Addresses')
+
+    def __str__(self):
+        return f'{self.user.email} :: {self.id}'
