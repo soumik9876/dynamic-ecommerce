@@ -1,0 +1,1685 @@
+{
+	"info": {
+		"_postman_id": "8598ad2c-deaf-4e71-bf42-5d4bb9e3df8e",
+		"name": "innovation-ecommerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13429534"
+	},
+	"item": [
+		{
+			"name": "accounts",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"soumik9876\",\n    \"email\": \"soumik9876@gmail.com\",\n    \"password1\": \"A~6{ot'4i7:0\",\n    \"password2\": \"A~6{ot'4i7:0\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/accounts/v1/register/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"accounts",
+								"v1",
+								"register",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"soumik9876\",\n    \"email\": \"soumik9876@gmail.com\",\n    \"password1\": \"A~6{ot'4i7:0\",\n    \"password2\": \"A~6{ot'4i7:0\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/accounts/v1/register/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"accounts",
+										"v1",
+										"register",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 06 Feb 2024 12:54:35 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "POST, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "585"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "64558d871b4e47c381911c56115a5b05"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=122.07599999999985;desc=\"User CPU time\", TimerPanel_stime;dur=10.722999999999816;desc=\"System CPU time\", TimerPanel_total;dur=132.79899999999967;desc=\"Total CPU time\", TimerPanel_total_time;dur=152.94528007507324;desc=\"Elapsed time\", SQLPanel_sql_time;dur=6.575345993041992;desc=\"SQL 16 queries\", CachePanel_total_time;dur=0.033855438232421875;desc=\"Cache 1 Calls\""
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "messages=W1siX19qc29uX21lc3NhZ2UiLDAsMjUsIlN1Y2Nlc3NmdWxseSBzaWduZWQgaW4gYXMgc291bWlrOTg3Ni4iLCIiXV0:1rXKyB:UiqyaKL6T-mBweQLaEOcmKN_GNsxz0qXNEiA8UjHcAw; HttpOnly; Path=/; SameSite=Lax"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "csrftoken=3f8aHBBvObPc6CQULGfLfof3LuQBZ7W9; expires=Tue, 04 Feb 2025 12:54:35 GMT; Max-Age=31449600; Path=/; SameSite=Lax"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "sessionid=dt7fesnimsvndale7vuu88swyex9zef2; expires=Tue, 20 Feb 2024 12:54:35 GMT; HttpOnly; Max-Age=1209600; Path=/; SameSite=Lax"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"access\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MjI0Mzc1LCJpYXQiOjE3MDcyMjQwNzUsImp0aSI6IjIyMTk5NDcyNTNmMjQ0ZTQ4MzFjNDQ0ZmJiNzQ0ZTJjIiwidXNlcl9pZCI6Nn0.YKaQ4Q49J5LTbda5BnfQJscc45dgX2ITnThmg0QkfFA\",\n    \"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNzMxMDQ3NSwiaWF0IjoxNzA3MjI0MDc1LCJqdGkiOiIzOGNiMWE1YTcyNGI0YzExOGIzNDE0NDA4YTdhMTRlYyIsInVzZXJfaWQiOjZ9.tebDYY5fnP07FRfed89hiZHuwKa1xBlrHKbXJymQ4h4\",\n    \"user\": {\n        \"pk\": 6,\n        \"username\": \"soumik9876\",\n        \"email\": \"soumik9876@gmail.com\",\n        \"first_name\": \"\",\n        \"last_name\": \"\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "login username",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"admin\",\n    \"password\": \"1998\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/accounts/v1/login/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"accounts",
+								"v1",
+								"login",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"soumik9876\",\n    \"password\": \"A~6{ot'4i7:0\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/accounts/v1/login/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"accounts",
+										"v1",
+										"login",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 06 Feb 2024 16:36:44 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "POST, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "356"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "c5d90bf1ecf641cb9ad3c14ed951aba4"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=108.82200000000003;desc=\"User CPU time\", TimerPanel_stime;dur=41.22700000000001;desc=\"System CPU time\", TimerPanel_total;dur=150.04900000000004;desc=\"Total CPU time\", TimerPanel_total_time;dur=158.65015983581543;desc=\"Elapsed time\", SQLPanel_sql_time;dur=4.539966583251953;desc=\"SQL 6 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MjM3NzA0LCJpYXQiOjE3MDcyMzc0MDQsImp0aSI6ImI0OGZiNTYzMDUzYTRlMmViMWI0ODhiMmEzMmU3MmNmIiwidXNlcl9pZCI6Nn0.uWZpuWbEdagAAvlwCqMoU8W-om7o4hOHAYNavn9C2Tk; expires=Tue, 06 Feb 2024 16:41:44 GMT; HttpOnly; Max-Age=300; Path=/; SameSite=Lax"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "refresh=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNzMyMzgwNCwiaWF0IjoxNzA3MjM3NDA0LCJqdGkiOiJiYzE5ZmVmOWE0NDk0MTVmYmZhYzMyY2M5MTQzNjY5MSIsInVzZXJfaWQiOjZ9.wKKt-T7VOVrD8_6jB49Xrlw4S-lvUoGIkhmKSvxyr-M; expires=Wed, 07 Feb 2024 16:36:44 GMT; HttpOnly; Max-Age=86400; Path=/; SameSite=Lax"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "csrftoken=NWywoxy0yJ84zBoINz0KUXLIJ22egY3M; expires=Tue, 04 Feb 2025 16:36:44 GMT; Max-Age=31449600; Path=/; SameSite=Lax"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "sessionid=dt7fesnimsvndale7vuu88swyex9zef2; expires=Tue, 20 Feb 2024 16:36:44 GMT; HttpOnly; Max-Age=1209600; Path=/; SameSite=Lax"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"access\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MjM3NzA0LCJpYXQiOjE3MDcyMzc0MDQsImp0aSI6ImI0OGZiNTYzMDUzYTRlMmViMWI0ODhiMmEzMmU3MmNmIiwidXNlcl9pZCI6Nn0.uWZpuWbEdagAAvlwCqMoU8W-om7o4hOHAYNavn9C2Tk\",\n    \"refresh\": \"\",\n    \"user\": {\n        \"pk\": 6,\n        \"username\": \"soumik9876\",\n        \"email\": \"soumik9876@gmail.com\",\n        \"first_name\": \"\",\n        \"last_name\": \"\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "google login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"access_token\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/accounts/v1/login/google/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"accounts",
+								"v1",
+								"login",
+								"google",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "token refresh",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNzM4Nzc3NCwiaWF0IjoxNzA3MzAxMzc0LCJqdGkiOiIxNTQ1YzlkMDQ0ZmQ0MmMwOWI3MjQyYjhkMWRiZTExZiIsInVzZXJfaWQiOjZ9.Xev-h9LXmGpjGj1tjOmEOEN_eGw_CQluMiPJdkXMBUA\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/accounts/v1/token/refresh/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"accounts",
+								"v1",
+								"token",
+								"refresh",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNzM4Nzc3NCwiaWF0IjoxNzA3MzAxMzc0LCJqdGkiOiIxNTQ1YzlkMDQ0ZmQ0MmMwOWI3MjQyYjhkMWRiZTExZiIsInVzZXJfaWQiOjZ9.Xev-h9LXmGpjGj1tjOmEOEN_eGw_CQluMiPJdkXMBUA\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/accounts/v1/token/refresh/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"accounts",
+										"v1",
+										"token",
+										"refresh",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 10:27:44 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "POST, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "241"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "4a9d675f750d4ec990fe81cca8a284ab"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=13.205000000000133;desc=\"User CPU time\", TimerPanel_stime;dur=4.751999999999867;desc=\"System CPU time\", TimerPanel_total;dur=17.957;desc=\"Total CPU time\", TimerPanel_total_time;dur=23.32782745361328;desc=\"Elapsed time\", SQLPanel_sql_time;dur=0;desc=\"SQL 0 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"access\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzAxOTY0LCJpYXQiOjE3MDczMDEzNzQsImp0aSI6ImM3NWIwZjRhNWM2MjQ3YmU4Y2ZhMDQxN2YxMjBhNjMyIiwidXNlcl9pZCI6Nn0.3BxXZp2pb8GRMfrqvjIkBuI3Q_7SvUV-FQEaC7oq0LE\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shop",
+			"item": [
+				{
+					"name": "shop list",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzAyMzQxLCJpYXQiOjE3MDczMDIwNDEsImp0aSI6IjIyYzFjM2E4NGUzNjRmMDQ5MWRjMWZkNjkxZDM5MTZjIiwidXNlcl9pZCI6Mn0.uudWqAy3COWgVZlw_aXmPJFDIRrEOGsLmRy3iGqwnVE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/shop/v1/shop/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"shop",
+								"v1",
+								"shop",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "shop list",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzAzMDUyLCJpYXQiOjE3MDczMDI3NTIsImp0aSI6IjQzMjFhNmViZGY5MzQxNTg5NGM5YmQxNzIzNzU5NmFkIiwidXNlcl9pZCI6Mn0.c0Gm7Bgo3KXa3fYbPn0WFk96wVtlSFmyAwruTNvZtUA",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/shop/v1/shop/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"shop",
+										"v1",
+										"shop",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 10:46:40 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "277"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "de5718dfa9b64c7f860b103cacec9c5f"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=21.389999999999798;desc=\"User CPU time\", TimerPanel_stime;dur=12.233999999999412;desc=\"System CPU time\", TimerPanel_total;dur=33.623999999999214;desc=\"Total CPU time\", TimerPanel_total_time;dur=38.919925689697266;desc=\"Elapsed time\", SQLPanel_sql_time;dur=2.899646759033203;desc=\"SQL 3 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"links\": {\n        \"next\": null,\n        \"previous\": null\n    },\n    \"count\": 1,\n    \"results\": [\n        {\n            \"id\": 1,\n            \"created_date\": \"2024-02-07T10:44:46.401079Z\",\n            \"modified_date\": \"2024-02-07T10:44:46.401102Z\",\n            \"name\": \"Tech city\",\n            \"is_open\": true,\n            \"avatar_image\": \"http://127.0.0.1:8000/media/images.jpeg\",\n            \"owner\": 2,\n            \"address\": null\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "product list",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzAyMzQxLCJpYXQiOjE3MDczMDIwNDEsImp0aSI6IjIyYzFjM2E4NGUzNjRmMDQ5MWRjMWZkNjkxZDM5MTZjIiwidXNlcl9pZCI6Mn0.uudWqAy3COWgVZlw_aXmPJFDIRrEOGsLmRy3iGqwnVE",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/shop/v1/product/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"shop",
+								"v1",
+								"product",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "product list",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzAyMzQxLCJpYXQiOjE3MDczMDIwNDEsImp0aSI6IjIyYzFjM2E4NGUzNjRmMDQ5MWRjMWZkNjkxZDM5MTZjIiwidXNlcl9pZCI6Mn0.uudWqAy3COWgVZlw_aXmPJFDIRrEOGsLmRy3iGqwnVE",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/shop/v1/product/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"shop",
+										"v1",
+										"product",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 12:10:40 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "312"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "c96b499f75b64b05869250a1be236f69"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=16.843000000000163;desc=\"User CPU time\", TimerPanel_stime;dur=14.607000000000259;desc=\"System CPU time\", TimerPanel_total;dur=31.450000000000422;desc=\"Total CPU time\", TimerPanel_total_time;dur=43.98393630981445;desc=\"Elapsed time\", SQLPanel_sql_time;dur=2.541780471801758;desc=\"SQL 3 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"links\": {\n        \"next\": null,\n        \"previous\": null\n    },\n    \"count\": 1,\n    \"results\": [\n        {\n            \"id\": 1,\n            \"created_date\": \"2024-02-07T12:09:38.095452Z\",\n            \"modified_date\": \"2024-02-07T12:09:38.095487Z\",\n            \"name\": \"Iphone 15 plus\",\n            \"description\": \"\\\"\\\"\",\n            \"price\": 1500,\n            \"image\": \"http://127.0.0.1:8000/media/iPhone-15-Plus-2-1-6945.jpg\",\n            \"category\": null,\n            \"shop\": 1\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "product create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzExMTQ1LCJpYXQiOjE3MDczMDc1NDUsImp0aSI6ImM1MTAyZmJjZTAwYTRkNDViNmNiZmE0NGUzZjg1MmJkIiwidXNlcl9pZCI6Mn0.WKvk-IlElIvPNXxA7ASTO89tWTtg3plIidZJVBm6HAI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Iphone 15 plus",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "\"\"",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "1500",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/Users/soumik9876/Downloads/iPhone-15-Plus-(2)-(1)-6945.jpg"
+								},
+								{
+									"key": "category",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "shop",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/shop/v1/product/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"shop",
+								"v1",
+								"product",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "product list",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzExMTQ1LCJpYXQiOjE3MDczMDc1NDUsImp0aSI6ImM1MTAyZmJjZTAwYTRkNDViNmNiZmE0NGUzZjg1MmJkIiwidXNlcl9pZCI6Mn0.WKvk-IlElIvPNXxA7ASTO89tWTtg3plIidZJVBm6HAI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Iphone 15 plus",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "\"\"",
+											"type": "text"
+										},
+										{
+											"key": "price",
+											"value": "1500",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"type": "file",
+											"src": "/Users/soumik9876/Downloads/iPhone-15-Plus-(2)-(1)-6945.jpg"
+										},
+										{
+											"key": "category",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "shop",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/shop/v1/product/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"shop",
+										"v1",
+										"product",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 12:09:38 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "250"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "fb21951587f8432dbeaf4275838c872d"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=61.17499999999998;desc=\"User CPU time\", TimerPanel_stime;dur=47.65799999999998;desc=\"System CPU time\", TimerPanel_total;dur=108.83299999999997;desc=\"Total CPU time\", TimerPanel_total_time;dur=147.13501930236816;desc=\"Elapsed time\", SQLPanel_sql_time;dur=1.7979145050048828;desc=\"SQL 5 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"created_date\": \"2024-02-07T12:09:38.095452Z\",\n    \"modified_date\": \"2024-02-07T12:09:38.095487Z\",\n    \"name\": \"Iphone 15 plus\",\n    \"description\": \"\\\"\\\"\",\n    \"price\": 1500,\n    \"image\": \"http://127.0.0.1:8000/media/iPhone-15-Plus-2-1-6945.jpg\",\n    \"category\": null,\n    \"shop\": 1\n}"
+						}
+					]
+				},
+				{
+					"name": "order create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzExMTQ1LCJpYXQiOjE3MDczMDc1NDUsImp0aSI6ImM1MTAyZmJjZTAwYTRkNDViNmNiZmE0NGUzZjg1MmJkIiwidXNlcl9pZCI6Mn0.WKvk-IlElIvPNXxA7ASTO89tWTtg3plIidZJVBm6HAI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"orderitem_set\": [{\n        \"product\": 1,\n        \"quantity\": 1\n    }],\n    \"delivery_fee\": 0,\n    \"shop\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/shop/v1/order/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"shop",
+								"v1",
+								"order",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "order create",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzExMTQ1LCJpYXQiOjE3MDczMDc1NDUsImp0aSI6ImM1MTAyZmJjZTAwYTRkNDViNmNiZmE0NGUzZjg1MmJkIiwidXNlcl9pZCI6Mn0.WKvk-IlElIvPNXxA7ASTO89tWTtg3plIidZJVBm6HAI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"orderitem_set\": [{\n        \"product\": 1,\n        \"quantity\": 1\n    }],\n    \"delivery_fee\": 0,\n    \"shop\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/shop/v1/order/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"shop",
+										"v1",
+										"order",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 12:31:27 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "366"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "15003c49e13a4a63860a347e1661c441"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=62.09900000000002;desc=\"User CPU time\", TimerPanel_stime;dur=44.510999999999996;desc=\"System CPU time\", TimerPanel_total;dur=106.61000000000001;desc=\"Total CPU time\", TimerPanel_total_time;dur=116.90497398376465;desc=\"Elapsed time\", SQLPanel_sql_time;dur=6.234169006347656;desc=\"SQL 12 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"orderitem_set\": [\n        {\n            \"id\": 1,\n            \"created_date\": \"2024-02-07T12:31:26.959372Z\",\n            \"modified_date\": \"2024-02-07T12:31:26.959387Z\",\n            \"quantity\": 1,\n            \"order\": 1,\n            \"product\": 1\n        }\n    ],\n    \"created_date\": \"2024-02-07T12:31:26.956623Z\",\n    \"modified_date\": \"2024-02-07T12:31:26.956645Z\",\n    \"item_total\": 1500,\n    \"delivery_fee\": 0,\n    \"total_amount\": 1500,\n    \"total_quantity\": 1,\n    \"is_paid\": false,\n    \"user\": 2,\n    \"shop\": 1\n}"
+						}
+					]
+				},
+				{
+					"name": "update cart",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzExMTQ1LCJpYXQiOjE3MDczMDc1NDUsImp0aSI6ImM1MTAyZmJjZTAwYTRkNDViNmNiZmE0NGUzZjg1MmJkIiwidXNlcl9pZCI6Mn0.WKvk-IlElIvPNXxA7ASTO89tWTtg3plIidZJVBm6HAI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cartitem_set\": [{\n        \"product\": 1,\n        \"quantity\": 1\n    }]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/shop/v1/cart/item/?id=1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"shop",
+								"v1",
+								"cart",
+								"item",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "update cart",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzExMTQ1LCJpYXQiOjE3MDczMDc1NDUsImp0aSI6ImM1MTAyZmJjZTAwYTRkNDViNmNiZmE0NGUzZjg1MmJkIiwidXNlcl9pZCI6Mn0.WKvk-IlElIvPNXxA7ASTO89tWTtg3plIidZJVBm6HAI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"cartitem_set\": [{\n        \"product\": 1,\n        \"quantity\": 1\n    }]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/shop/v1/cart/item/?id=1",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"shop",
+										"v1",
+										"cart",
+										"item",
+										""
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 12:35:46 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, PUT, PATCH, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "295"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "3aacc3278898402d9174eaf506877c80"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=52.83099999999996;desc=\"User CPU time\", TimerPanel_stime;dur=38.65300000000002;desc=\"System CPU time\", TimerPanel_total;dur=91.48399999999998;desc=\"Total CPU time\", TimerPanel_total_time;dur=100.57401657104492;desc=\"Elapsed time\", SQLPanel_sql_time;dur=4.200935363769531;desc=\"SQL 11 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"cartitem_set\": [\n        {\n            \"id\": 1,\n            \"created_date\": \"2024-02-07T12:35:45.993082Z\",\n            \"modified_date\": \"2024-02-07T12:35:45.993096Z\",\n            \"quantity\": 1,\n            \"cart\": 1,\n            \"product\": 1\n        }\n    ],\n    \"created_date\": \"2024-02-06T12:42:30.229537Z\",\n    \"modified_date\": \"2024-02-07T12:35:45.990527Z\",\n    \"item_total\": 0,\n    \"total_quantity\": 0,\n    \"user\": 2\n}"
+						}
+					]
+				},
+				{
+					"name": "get cart",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzExMTQ1LCJpYXQiOjE3MDczMDc1NDUsImp0aSI6ImM1MTAyZmJjZTAwYTRkNDViNmNiZmE0NGUzZjg1MmJkIiwidXNlcl9pZCI6Mn0.WKvk-IlElIvPNXxA7ASTO89tWTtg3plIidZJVBm6HAI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cartitem_set\": [{\n        \"product\": 1,\n        \"quantity\": 1\n    }]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/shop/v1/cart/item/?id=1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"shop",
+								"v1",
+								"cart",
+								"item",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get cart",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzExMTQ1LCJpYXQiOjE3MDczMDc1NDUsImp0aSI6ImM1MTAyZmJjZTAwYTRkNDViNmNiZmE0NGUzZjg1MmJkIiwidXNlcl9pZCI6Mn0.WKvk-IlElIvPNXxA7ASTO89tWTtg3plIidZJVBm6HAI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"cartitem_set\": [{\n        \"product\": 1,\n        \"quantity\": 1\n    }]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/shop/v1/cart/item/?id=1",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"shop",
+										"v1",
+										"cart",
+										"item",
+										""
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 12:37:12 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, PUT, PATCH, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "162"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "1bc2394a101240b18b47e32d7e99bf86"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=13.272999999999868;desc=\"User CPU time\", TimerPanel_stime;dur=11.506999999999934;desc=\"System CPU time\", TimerPanel_total;dur=24.779999999999802;desc=\"Total CPU time\", TimerPanel_total_time;dur=23.654699325561523;desc=\"Elapsed time\", SQLPanel_sql_time;dur=3.5843849182128906;desc=\"SQL 3 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"cartitem_set\": [],\n    \"created_date\": \"2024-02-06T12:42:30.229537Z\",\n    \"modified_date\": \"2024-02-07T12:36:44.155576Z\",\n    \"item_total\": 0,\n    \"total_quantity\": 0,\n    \"user\": 2\n}"
+						}
+					]
+				},
+				{
+					"name": "order list",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzExMTQ1LCJpYXQiOjE3MDczMDc1NDUsImp0aSI6ImM1MTAyZmJjZTAwYTRkNDViNmNiZmE0NGUzZjg1MmJkIiwidXNlcl9pZCI6Mn0.WKvk-IlElIvPNXxA7ASTO89tWTtg3plIidZJVBm6HAI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"orderitem_set\": [{\n        \"product\": 1,\n        \"quantity\": 1\n    }],\n    \"delivery_fee\": 0,\n    \"shop\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/shop/v1/order/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"shop",
+								"v1",
+								"order",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "order list",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzExMTQ1LCJpYXQiOjE3MDczMDc1NDUsImp0aSI6ImM1MTAyZmJjZTAwYTRkNDViNmNiZmE0NGUzZjg1MmJkIiwidXNlcl9pZCI6Mn0.WKvk-IlElIvPNXxA7ASTO89tWTtg3plIidZJVBm6HAI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"orderitem_set\": [{\n        \"product\": 1,\n        \"quantity\": 1\n    }],\n    \"delivery_fee\": 0,\n    \"shop\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/shop/v1/order/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"shop",
+										"v1",
+										"order",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 12:32:33 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "428"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "7eb02fdd26a8421ea608e31ea5d3d31b"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=26.800999999999853;desc=\"User CPU time\", TimerPanel_stime;dur=17.549999999999955;desc=\"System CPU time\", TimerPanel_total;dur=44.35099999999981;desc=\"Total CPU time\", TimerPanel_total_time;dur=44.998884201049805;desc=\"Elapsed time\", SQLPanel_sql_time;dur=2.422809600830078;desc=\"SQL 4 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"links\": {\n        \"next\": null,\n        \"previous\": null\n    },\n    \"count\": 1,\n    \"results\": [\n        {\n            \"id\": 1,\n            \"orderitem_set\": [\n                {\n                    \"id\": 1,\n                    \"created_date\": \"2024-02-07T12:31:26.959372Z\",\n                    \"modified_date\": \"2024-02-07T12:31:26.959387Z\",\n                    \"quantity\": 1,\n                    \"order\": 1,\n                    \"product\": 1\n                }\n            ],\n            \"created_date\": \"2024-02-07T12:31:26.956623Z\",\n            \"modified_date\": \"2024-02-07T12:31:26.956645Z\",\n            \"item_total\": 1500,\n            \"delivery_fee\": 0,\n            \"total_amount\": 1500,\n            \"total_quantity\": 1,\n            \"is_paid\": false,\n            \"user\": 2,\n            \"shop\": 1\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "shop create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzAyOTUyLCJpYXQiOjE3MDczMDI2NTIsImp0aSI6Ijc1OGI2MDQwMDY1NTQ2ZDY5YTVhM2ZjMTMxNmZjYWE5IiwidXNlcl9pZCI6Mn0.PZuSB1AuRXEp3DEJ2BytSR-DzD4uunBPPz1aPJVPMLA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Tech city",
+									"type": "text"
+								},
+								{
+									"key": "is_open",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "avatar_image",
+									"type": "file",
+									"src": "postman-cloud:///1eec5a5f-9a8a-4980-9cd7-7c2f345baa5a"
+								},
+								{
+									"key": "\"address\"",
+									"value": "\"\"",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/shop/v1/shop/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"shop",
+								"v1",
+								"shop",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "shop create",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzAyOTUyLCJpYXQiOjE3MDczMDI2NTIsImp0aSI6Ijc1OGI2MDQwMDY1NTQ2ZDY5YTVhM2ZjMTMxNmZjYWE5IiwidXNlcl9pZCI6Mn0.PZuSB1AuRXEp3DEJ2BytSR-DzD4uunBPPz1aPJVPMLA",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Tech city",
+											"type": "text"
+										},
+										{
+											"key": "is_open",
+											"value": "true",
+											"type": "text"
+										},
+										{
+											"key": "avatar_image",
+											"type": "file",
+											"src": "postman-cloud:///1eec5a5f-9a8a-4980-9cd7-7c2f345baa5a"
+										},
+										{
+											"key": "\"address\"",
+											"value": "\"\"",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/shop/v1/shop/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"shop",
+										"v1",
+										"shop",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Wed, 07 Feb 2024 10:44:46 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "215"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "djdt-store-id",
+									"value": "14f4bb1933c7409ebe8e37e8712c2d68"
+								},
+								{
+									"key": "Server-Timing",
+									"value": "TimerPanel_utime;dur=69.81799999999994;desc=\"User CPU time\", TimerPanel_stime;dur=38.551;desc=\"System CPU time\", TimerPanel_total;dur=108.36899999999994;desc=\"Total CPU time\", TimerPanel_total_time;dur=415.5158996582031;desc=\"Elapsed time\", SQLPanel_sql_time;dur=3.314971923828125;desc=\"SQL 2 queries\", CachePanel_total_time;dur=0;desc=\"Cache 0 Calls\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"created_date\": \"2024-02-07T10:44:46.401079Z\",\n    \"modified_date\": \"2024-02-07T10:44:46.401102Z\",\n    \"name\": \"Tech city\",\n    \"is_open\": true,\n    \"avatar_image\": \"http://127.0.0.1:8000/media/images.jpeg\",\n    \"owner\": 2,\n    \"address\": null\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
