@@ -24,6 +24,11 @@ class User(AbstractUser):
     def __str__(self):
         return self.username
 
+    def empty_user_cart(self):
+        from shop.models import Cart
+        cart = Cart.objects.get(user=self)
+        cart.empty_cart()
+
 
 class UserAddress(BaseAddress):
     is_default = models.BooleanField(verbose_name=_('Is default'), default=False)

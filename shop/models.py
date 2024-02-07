@@ -13,6 +13,7 @@ class Shop(BaseModel):
     avatar_image = models.ImageField(verbose_name=_('Avatar Image'), null=True, blank=True)
 
     class Meta:
+        ordering = ['-id']
         verbose_name = _('Shop')
         verbose_name_plural = _('Shops')
 
@@ -35,8 +36,10 @@ class Product(BaseModel):
     category = models.ForeignKey(Category, verbose_name=_('Category'), on_delete=models.SET_NULL, null=True, blank=True)
     shop = models.ForeignKey(Shop, verbose_name=_('Shop'), on_delete=models.CASCADE)
     price = models.FloatField(verbose_name=_('Price'), default=0)
+    image = models.ImageField(verbose_name=_('Product Image'), null=True, blank=True)
 
     class Meta:
+        ordering = ['-id']
         verbose_name = _('Product')
         verbose_name_plural = _('Products')
 
@@ -56,8 +59,26 @@ class Cart(BaseModel):
     def __str__(self):
         return self.user.username
 
+    def save(self, *args, **kwargs):
+        try:
+            """
+                Anytime cart is updated, we are updating the price and quantity
+            """
+            item_total, total_quantity = 0, 0
+
+            for item in self.cartitem_set.all():
+                item_total += item.product.price
+                total_quantity += item.quantity
+
+            self.item_total = item_total
+            self.total_quantity = total_quantity
+            super().save(*args, **kwargs)
+        except:
+            pass
+
     def empty_cart(self):
         self.cartitem_set.all().delete()
+        self.save()
 
     # def get_item_total(self):
 
@@ -82,9 +103,11 @@ class Order(BaseModel):
     item_total = models.FloatField(verbose_name=_('Item Total'), default=0)
     delivery_fee = models.FloatField(verbose_name=_('Delivery Fee'), default=0)
     total_amount = models.FloatField(verbose_name=_('Total amount'), default=0)
+    total_quantity = models.PositiveIntegerField(verbose_name=_('Total quantity'), default=0)
     is_paid = models.BooleanField(verbose_name=_('Is paid'), default=False)
 
     class Meta:
+        ordering = ['-id']
         verbose_name = _('Order')
         verbose_name_plural = _('Orders')
 
