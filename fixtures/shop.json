@@ -1,0 +1,1514 @@
+[
+{
+    "model": "shop.shop",
+    "pk": 1,
+    "fields": {
+        "created_date": "2024-02-07T10:44:46.401Z",
+        "modified_date": "2024-02-07T10:44:46.401Z",
+        "name": "Tech city",
+        "owner": 2,
+        "address": null,
+        "is_open": true,
+        "avatar_image": "images.jpeg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+        "created_date": "2024-02-07T12:09:38.095Z",
+        "modified_date": "2024-02-07T13:55:13.333Z",
+        "name": "Iphone 15 plus",
+        "description": "\"\"",
+        "category": null,
+        "shop": 1,
+        "price": 1500.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.037Z",
+        "modified_date": "2024-02-07T13:55:13.332Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1135.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 3,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.043Z",
+        "modified_date": "2024-02-07T13:55:13.332Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1393.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 4,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.044Z",
+        "modified_date": "2024-02-07T13:55:13.331Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 953.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 5,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.045Z",
+        "modified_date": "2024-02-07T13:55:13.331Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1115.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 6,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.046Z",
+        "modified_date": "2024-02-07T13:55:13.331Z",
+        "name": "Iphone 10",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1208.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 7,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.047Z",
+        "modified_date": "2024-02-07T13:55:13.330Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1459.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 8,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.048Z",
+        "modified_date": "2024-02-07T13:55:13.330Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1173.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 9,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.049Z",
+        "modified_date": "2024-02-07T13:55:13.329Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1133.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 10,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.050Z",
+        "modified_date": "2024-02-07T13:55:13.329Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1180.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 11,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.051Z",
+        "modified_date": "2024-02-07T13:55:13.328Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1365.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 12,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.052Z",
+        "modified_date": "2024-02-07T13:55:13.328Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 893.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 13,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.053Z",
+        "modified_date": "2024-02-07T13:55:13.327Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1159.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 14,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.054Z",
+        "modified_date": "2024-02-07T13:55:13.327Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1212.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 15,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.055Z",
+        "modified_date": "2024-02-07T13:55:13.327Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 901.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 16,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.058Z",
+        "modified_date": "2024-02-07T13:55:13.326Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 986.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 17,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.059Z",
+        "modified_date": "2024-02-07T13:55:13.326Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 814.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 18,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.061Z",
+        "modified_date": "2024-02-07T13:55:13.325Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1374.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 19,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.063Z",
+        "modified_date": "2024-02-07T13:55:13.325Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1126.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 20,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.065Z",
+        "modified_date": "2024-02-07T13:55:13.324Z",
+        "name": "Iphone 10",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1414.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 21,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.066Z",
+        "modified_date": "2024-02-07T13:55:13.324Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 895.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 22,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.067Z",
+        "modified_date": "2024-02-07T13:55:13.323Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1473.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 23,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.068Z",
+        "modified_date": "2024-02-07T13:55:13.323Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 955.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 24,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.068Z",
+        "modified_date": "2024-02-07T13:55:13.322Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 917.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 25,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.069Z",
+        "modified_date": "2024-02-07T13:55:13.322Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1196.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 26,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.070Z",
+        "modified_date": "2024-02-07T13:55:13.322Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 923.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 27,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.073Z",
+        "modified_date": "2024-02-07T13:55:13.321Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1097.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 28,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.074Z",
+        "modified_date": "2024-02-07T13:55:13.321Z",
+        "name": "Iphone 10",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1037.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 29,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.077Z",
+        "modified_date": "2024-02-07T13:55:13.320Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1151.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 30,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.078Z",
+        "modified_date": "2024-02-07T13:55:13.320Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1365.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 31,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.079Z",
+        "modified_date": "2024-02-07T13:55:13.319Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1077.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 32,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.080Z",
+        "modified_date": "2024-02-07T13:55:13.319Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1406.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 33,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.081Z",
+        "modified_date": "2024-02-07T13:55:13.318Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1125.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 34,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.082Z",
+        "modified_date": "2024-02-07T13:55:13.318Z",
+        "name": "Iphone 10",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 836.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 35,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.082Z",
+        "modified_date": "2024-02-07T13:55:13.318Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1158.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 36,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.083Z",
+        "modified_date": "2024-02-07T13:55:13.317Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 934.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 37,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.084Z",
+        "modified_date": "2024-02-07T13:55:13.317Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1246.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 38,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.085Z",
+        "modified_date": "2024-02-07T13:55:13.316Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1113.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 39,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.085Z",
+        "modified_date": "2024-02-07T13:55:13.316Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1384.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 40,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.086Z",
+        "modified_date": "2024-02-07T13:55:13.315Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1246.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 41,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.087Z",
+        "modified_date": "2024-02-07T13:55:13.313Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1487.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 42,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.088Z",
+        "modified_date": "2024-02-07T13:55:13.312Z",
+        "name": "Iphone 10",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1453.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 43,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.089Z",
+        "modified_date": "2024-02-07T13:55:13.311Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1166.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 44,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.090Z",
+        "modified_date": "2024-02-07T13:55:13.311Z",
+        "name": "Iphone 10",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1059.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 45,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.091Z",
+        "modified_date": "2024-02-07T13:55:13.310Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 950.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 46,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.091Z",
+        "modified_date": "2024-02-07T13:55:13.310Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1466.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 47,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.092Z",
+        "modified_date": "2024-02-07T13:55:13.309Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1061.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 48,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.092Z",
+        "modified_date": "2024-02-07T13:55:13.308Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 914.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 49,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.093Z",
+        "modified_date": "2024-02-07T13:55:13.308Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1482.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 50,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.093Z",
+        "modified_date": "2024-02-07T13:55:13.307Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1287.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 51,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.094Z",
+        "modified_date": "2024-02-07T13:55:13.307Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 878.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 52,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.094Z",
+        "modified_date": "2024-02-07T13:55:13.306Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1040.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 53,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.095Z",
+        "modified_date": "2024-02-07T13:55:13.305Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1364.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 54,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.095Z",
+        "modified_date": "2024-02-07T13:55:13.304Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1119.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 55,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.096Z",
+        "modified_date": "2024-02-07T13:55:13.304Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1288.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 56,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.096Z",
+        "modified_date": "2024-02-07T13:55:13.303Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 887.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 57,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.096Z",
+        "modified_date": "2024-02-07T13:55:13.302Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1290.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 58,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.097Z",
+        "modified_date": "2024-02-07T13:55:13.301Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1413.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 59,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.098Z",
+        "modified_date": "2024-02-07T13:55:13.300Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 926.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 60,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.098Z",
+        "modified_date": "2024-02-07T13:55:13.299Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1104.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 61,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.099Z",
+        "modified_date": "2024-02-07T13:55:13.299Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1222.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 62,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.099Z",
+        "modified_date": "2024-02-07T13:55:13.298Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1215.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 63,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.099Z",
+        "modified_date": "2024-02-07T13:55:13.297Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1238.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 64,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.100Z",
+        "modified_date": "2024-02-07T13:55:13.295Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1466.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 65,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.101Z",
+        "modified_date": "2024-02-07T13:55:13.292Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1079.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 66,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.102Z",
+        "modified_date": "2024-02-07T13:55:13.291Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1475.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 67,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.103Z",
+        "modified_date": "2024-02-07T13:55:13.290Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 997.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 68,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.103Z",
+        "modified_date": "2024-02-07T13:55:13.288Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1422.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 69,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.104Z",
+        "modified_date": "2024-02-07T13:55:13.287Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 934.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 70,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.104Z",
+        "modified_date": "2024-02-07T13:55:13.286Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1026.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 71,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.105Z",
+        "modified_date": "2024-02-07T13:55:13.285Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1379.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 72,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.105Z",
+        "modified_date": "2024-02-07T13:55:13.284Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1086.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 73,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.105Z",
+        "modified_date": "2024-02-07T13:55:13.284Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1470.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 74,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.106Z",
+        "modified_date": "2024-02-07T13:55:13.283Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1458.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 75,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.106Z",
+        "modified_date": "2024-02-07T13:55:13.282Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1221.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 76,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.107Z",
+        "modified_date": "2024-02-07T13:55:13.281Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1197.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 77,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.107Z",
+        "modified_date": "2024-02-07T13:55:13.280Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1428.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 78,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.108Z",
+        "modified_date": "2024-02-07T13:55:13.279Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1148.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 79,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.108Z",
+        "modified_date": "2024-02-07T13:55:13.279Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1383.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 80,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.109Z",
+        "modified_date": "2024-02-07T13:55:13.278Z",
+        "name": "Iphone 14",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1066.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 81,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.109Z",
+        "modified_date": "2024-02-07T13:55:13.278Z",
+        "name": "Iphone 10",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1260.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 82,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.110Z",
+        "modified_date": "2024-02-07T13:55:13.277Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1252.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 83,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.110Z",
+        "modified_date": "2024-02-07T13:55:13.276Z",
+        "name": "Iphone 9",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1322.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 84,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.110Z",
+        "modified_date": "2024-02-07T13:55:13.276Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1163.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 85,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.111Z",
+        "modified_date": "2024-02-07T13:55:13.274Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1067.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 86,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.111Z",
+        "modified_date": "2024-02-07T13:55:13.273Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1043.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 87,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.112Z",
+        "modified_date": "2024-02-07T13:55:13.272Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 890.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 88,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.112Z",
+        "modified_date": "2024-02-07T13:55:13.271Z",
+        "name": "Iphone 13",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1362.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 89,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.112Z",
+        "modified_date": "2024-02-07T13:55:13.270Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1015.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 90,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.113Z",
+        "modified_date": "2024-02-07T13:55:13.269Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1141.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 91,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.113Z",
+        "modified_date": "2024-02-07T13:55:13.268Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1300.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 92,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.114Z",
+        "modified_date": "2024-02-07T13:55:13.267Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 946.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 93,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.114Z",
+        "modified_date": "2024-02-07T13:55:13.266Z",
+        "name": "Iphone 12",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1089.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 94,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.114Z",
+        "modified_date": "2024-02-07T13:55:13.265Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1188.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 95,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.115Z",
+        "modified_date": "2024-02-07T13:55:13.264Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1113.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 96,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.115Z",
+        "modified_date": "2024-02-07T13:55:13.262Z",
+        "name": "Iphone 10",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1166.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 97,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.116Z",
+        "modified_date": "2024-02-07T13:55:13.261Z",
+        "name": "Iphone 10",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1455.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 98,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.116Z",
+        "modified_date": "2024-02-07T13:55:13.260Z",
+        "name": "Iphone 8",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 983.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 99,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.116Z",
+        "modified_date": "2024-02-07T13:55:13.259Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 989.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 100,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.117Z",
+        "modified_date": "2024-02-07T13:55:13.257Z",
+        "name": "Iphone 11",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 859.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 101,
+    "fields": {
+        "created_date": "2024-02-07T13:40:00.117Z",
+        "modified_date": "2024-02-07T13:55:13.249Z",
+        "name": "Iphone 15",
+        "description": "",
+        "category": null,
+        "shop": 1,
+        "price": 1397.0,
+        "image": "/iPhone-15-Plus-2-1-6945.jpg"
+    }
+},
+{
+    "model": "shop.cart",
+    "pk": 1,
+    "fields": {
+        "created_date": "2024-02-06T12:42:30.229Z",
+        "modified_date": "2024-02-07T12:36:44.155Z",
+        "user": 2,
+        "item_total": 0.0,
+        "total_quantity": 0
+    }
+},
+{
+    "model": "shop.cart",
+    "pk": 5,
+    "fields": {
+        "created_date": "2024-02-06T12:54:35.466Z",
+        "modified_date": "2024-02-06T12:54:35.466Z",
+        "user": 6,
+        "item_total": 0.0,
+        "total_quantity": 0
+    }
+},
+{
+    "model": "shop.order",
+    "pk": 1,
+    "fields": {
+        "created_date": "2024-02-07T12:31:26.956Z",
+        "modified_date": "2024-02-07T12:31:26.956Z",
+        "user": 2,
+        "shop": 1,
+        "item_total": 1500.0,
+        "delivery_fee": 0.0,
+        "total_amount": 1500.0,
+        "total_quantity": 1,
+        "is_paid": false
+    }
+},
+{
+    "model": "shop.order",
+    "pk": 2,
+    "fields": {
+        "created_date": "2024-02-07T12:36:44.159Z",
+        "modified_date": "2024-02-07T12:36:44.159Z",
+        "user": 2,
+        "shop": 1,
+        "item_total": 1500.0,
+        "delivery_fee": 0.0,
+        "total_amount": 1500.0,
+        "total_quantity": 1,
+        "is_paid": false
+    }
+},
+{
+    "model": "shop.orderitem",
+    "pk": 1,
+    "fields": {
+        "created_date": "2024-02-07T12:31:26.959Z",
+        "modified_date": "2024-02-07T12:31:26.959Z",
+        "order": 1,
+        "product": 1,
+        "quantity": 1
+    }
+},
+{
+    "model": "shop.orderitem",
+    "pk": 2,
+    "fields": {
+        "created_date": "2024-02-07T12:36:44.165Z",
+        "modified_date": "2024-02-07T12:36:44.165Z",
+        "order": 2,
+        "product": 1,
+        "quantity": 1
+    }
+},
+{
+    "model": "shop.dailydata",
+    "pk": 1,
+    "fields": {
+        "created_date": "2024-02-07T16:42:56.731Z",
+        "modified_date": "2024-02-07T16:42:56.731Z",
+        "shop": 1,
+        "total_amount": 3000.0,
+        "total_quantity": 2.0
+    }
+}
+]
