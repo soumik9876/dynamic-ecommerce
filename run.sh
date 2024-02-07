@@ -4,8 +4,8 @@ echo "API SERVER RUN"
 python manage.py migrate # Apply migrations
 
 # Load data from fixtures
-python manage.py loaddata user/fixtures/user_data.json
-python manage.py loaddata restaurant/fixtures/restaurant_data.json
+python manage.py loaddata fixtures/accounts.json
+python manage.py loaddata fixtures/shop.json
 
 python manage.py collectstatic
 # Start the Gunicorn server
