@@ -1678,6 +1678,50 @@
 							"body": "{\n    \"id\": 1,\n    \"created_date\": \"2024-02-07T10:44:46.401079Z\",\n    \"modified_date\": \"2024-02-07T10:44:46.401102Z\",\n    \"name\": \"Tech city\",\n    \"is_open\": true,\n    \"avatar_image\": \"http://127.0.0.1:8000/media/images.jpeg\",\n    \"owner\": 2,\n    \"address\": null\n}"
 						}
 					]
+				},
+				{
+					"name": "daily data",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3MzM1MTU5LCJpYXQiOjE3MDczMzE1NTksImp0aSI6ImU5OTNkNjMyZDQxMTRkNDRhNmI1ZWYwNjRmYjU5MjE1IiwidXNlcl9pZCI6Mn0.Uuf3E5fw5CqA10eDhMxJxfVCQzux20fVDI1DV4RIq3c",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/shop/v1/daily-data/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"shop",
+								"v1",
+								"daily-data",
+								""
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}

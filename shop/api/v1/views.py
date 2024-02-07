@@ -1,11 +1,16 @@
+import datetime
+
+from django.utils import timezone
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView, ListAPIView, RetrieveUpdateAPIView, \
     get_object_or_404
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.views import APIView
 
 from core.api.paginations import StandardResultsSetPagination
 from shop.api.v1.permissions import IsSeller, ProductOwner
-from shop.api.v1.serializers import ShopSerializer, ProductSerializer, OrderSerializer, CartSerializer
-from shop.models import Shop, Product, Order, Cart
+from shop.api.v1.serializers import ShopSerializer, ProductSerializer, OrderSerializer, CartSerializer, \
+    DailyDataSerializer
+from shop.models import Shop, Product, Order, Cart, DailyData
 
 
 class ShopListCreateAPIView(ListCreateAPIView):
@@ -87,3 +92,14 @@ class CartRetrieveUpdateAPIView(RetrieveUpdateAPIView):
 
     def get_object(self):
         return get_object_or_404(Cart, user=self.request.user)
+
+
+class DailyDataAPIView(ListAPIView):
+    serializer_class = DailyDataSerializer
+    filterset_fields = ['shop']
+    permission_classes = [IsAuthenticated]
+
+    def get_queryset(self):
+        days = self.request.query_params.get('days', 30)
+        first_date = timezone.now() - datetime.timedelta(days=days)
+        return DailyData.objects.filter(created_date__gt=first_date)

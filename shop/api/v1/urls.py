@@ -9,5 +9,6 @@ urlpatterns = [
     path('product/item/', ProductRetrieveUpdateDestroyAPIView.as_view(), name='product-rud'),
     path('order/', OrderListCreateAPIView.as_view(), name='order-list-create'),
     path('order/shop/', SellerOrderListAPIView.as_view(), name='seller-order-list'),
-    path('cart/item/', CartRetrieveUpdateAPIView.as_view(), name='cart-item')
+    path('cart/item/', CartRetrieveUpdateAPIView.as_view(), name='cart-item'),
+    path('daily-data/', DailyDataAPIView.as_view(), name='daily-data')
 ]

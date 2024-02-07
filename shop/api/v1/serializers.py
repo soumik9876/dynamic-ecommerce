@@ -2,7 +2,7 @@ from drf_writable_nested import WritableNestedModelSerializer
 from rest_framework import serializers
 from rest_framework.exceptions import ParseError
 
-from shop.models import Shop, Product, Cart, CartItem, Order, OrderItem
+from shop.models import Shop, Product, Cart, CartItem, Order, OrderItem, DailyData
 
 
 class ShopSerializer(serializers.ModelSerializer):
@@ -92,3 +92,9 @@ class OrderSerializer(WritableNestedModelSerializer):
             'total_amount': subtotal + int(data.get('delivery_fee', 0)),
             'total_quantity': total_quantity
         }
+
+
+class DailyDataSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = DailyData
+        fields = ['created_date', 'total_amount', 'total_quantity']
