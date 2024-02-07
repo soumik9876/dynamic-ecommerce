@@ -127,3 +127,13 @@ class OrderItem(BaseModel):
     @property
     def item_total(self):
         return self.quantity * self.product.price
+
+
+class DailyData(BaseModel):
+    shop = models.ForeignKey(Shop, verbose_name=_('Shop'), on_delete=models.CASCADE)
+    total_amount = models.FloatField(verbose_name=_('Total amount'), default=0)
+    total_quantity = models.FloatField(verbose_name=_('Total quantity'), default=0)
+
+    class Meta:
+        verbose_name = _('Daily Data')
+        verbose_name_plural = _('Daily Data')

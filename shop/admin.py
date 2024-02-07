@@ -30,3 +30,8 @@ class OrderAdmin(admin.ModelAdmin):
 @admin.register(OrderItem)
 class OrderItemAdmin(admin.ModelAdmin):
     pass
+
+
+@admin.register(DailyData)
+class DailyDataAdmin(admin.ModelAdmin):
+    list_display = ['shop', 'total_amount', 'total_quantity']
